@@ -1,0 +1,27 @@
+{
+    "name": "bickyraj/calculator",
+    "description": "simple calculator",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Bicky Raj Kayastha",
+            "email": "bickyrajkayastha@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BickyRaj\\Calculator\\CalculatorServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "BickyRaj\\Calculator\\": "src/"
+        }
+    }
+}
